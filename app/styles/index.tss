@@ -1,0 +1,202 @@
+".container": {
+	//backgroundColor:"white"
+}
+//"#F05107"
+/*Vista encabezado*/
+
+".encabezado":{
+	//backgroundImage: "/images/naranja.png",
+	//backgroundColor: "#F05107",
+	height: '590dp',
+	top: '0dp'	
+	//size: 50
+}
+"#selRegis": {
+	height: '25dp',
+	width: '25dp',
+	backgroundColor: "white",
+	top: '565dp',
+	left: '100dp'
+}
+"#selIniciar": {
+	height: '25dp',
+	width: '25dp',
+	backgroundColor: "white",
+	top: '565dp',
+	left: '470dp',
+	visible: false,
+}
+
+"#fondo":{
+	image: "/images/naranja.png",
+	
+	height: '590dp',
+	width: '780dp',
+}
+"#titulo": {
+	textaling: "center",
+	color: "white",
+	 font : {
+        fontSize : 50,
+        fontFamily : 'dacw'
+    },
+	
+}
+"#descr":{
+	top: '350',
+	//height: '590dp',
+	width: '400dp',
+	textaling: "center",
+	color: "white",
+	 font : {
+        fontSize : 30,
+        fontFamily : 'dacw'
+    },
+	
+}
+"#regis": {
+	color: "white",
+	top: '508dp',
+	left: '5dp',
+	height: '80dp',
+	width: '382dp',
+	font : {
+        fontSize : 30,
+        //fontFamily : 'Helvetica Neue'
+    },
+	backgroundColor: "#fffff"
+	
+}
+"#iniciar": {
+	color: "white",
+	top: '508dp',
+	left: '387dp',
+	width: '378dp',
+	//borderColor: "#BDBDBD",
+	height: '80dp',
+	font : {
+        fontSize : 30,
+        //fontFamily : 'Courier New'
+    },
+	backgroundColor: "#fffff"
+}
+
+/*Vista horizontal*/
+
+"#horizontal": {
+	backgroundColor: "white",
+	height: '590dp',
+	top: '590dp',
+	visible: false,
+}
+"#user":{
+	backgroundColor: "white",
+	top: '1dp',
+	height: '80dp',
+	width: '710dp',
+	hintText: "Usuario",
+	color: "black",
+	font : {
+        fontSize : 24,
+        fontFamily : 'Helvetica Neue'
+    },
+	keyboardType: 2,
+}
+"#faInicio":{
+	top: '512dp',
+	left: '150dp',
+	height: '35dp',
+	width: '35dp',
+}
+"#olvidaste":{
+	top: '100dp',
+	left: '560dp',
+	backgroundColor: 'white',
+	font : {
+        fontSize : 24,
+        fontFamily : 'Helvetica Neue'
+    },
+	
+}
+"#pass":{
+	backgroundColor: "white",
+	top: '81dp',
+	height: '80dp',
+	width: '710dp',
+	hintText: "Contraseña",
+	borderColor: "black",
+	font : {
+        fontSize : 24,
+        fontFamily : 'Helvetica Neue'
+    },
+	color: "black",
+	passwordMask: true	
+}
+"#login": {
+	color: "black",
+	top: '170dp',
+	
+	width: '378dp',
+	//borderColor: "#BDBDBD",
+	height: '80dp',
+	backgroundColor: "white"
+}
+"#sesion": {
+	top: '500dp',
+	height: '70dp',
+	width: '410dp',
+	textaling: "center",
+	backgroundColor: "#fffff",
+	font : {
+        fontSize : 28,
+        fontFamily : 'Helvetica Neue'
+    },
+}
+
+/*Vista vregistrar*/
+
+"#vRegistrar": {
+	backgroundColor: "white",
+	height: '590dp',
+	top: '590dp'		
+}
+"#sesionRe": {
+	top: '300dp',
+	height: '70dp',
+	width: '410dp',
+	backgroundColor: "#fffff",
+	//textaling: "center",
+	font : {
+        fontSize : 28,
+        fontFamily : 'Helvetica'
+    },
+}
+"#faRegistro": {
+	top: '315dp',
+	left: '155dp',
+	height: '35dp',
+	width: '35dp',
+	//backgroundColor: 'black',
+	//image: '/images/face.png'
+}
+"#mail":{
+	backgroundColor: "white",
+	top: '50dp',
+	height: '200dp',
+	width: '700dp',
+	hintText: "Ingresa tu correo electronico",
+	color: "black",
+	font : {
+        fontSize : 24,
+        fontFamily : 'Helvetica Neue'
+    },
+    textAlign: "center"
+}
+
+".links": {
+	color: "#2E64FE",
+}
+".face": {
+	image: '/images/face.png'
+}
+

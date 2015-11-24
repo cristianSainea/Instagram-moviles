@@ -1,0 +1,30 @@
+<Alloy>
+	<Window class="container">
+		<View class="encabezado">
+			<ImageView id="fondo"></ImageView>
+			<Label id="titulo" > INSTAGRAM</Label>
+			<Label id="descr" > Inicia sesion para ver fotos y videos de tus amigos</Label>
+			<Button id="regis" onClick="registrar" >REGISTRARSE</Button>
+			<Button id="iniciar"  onClick="inicio" >INICIAR SESIÓN</Button>
+			<ImageView id="selRegis"></ImageView>
+			<ImageView id="selIniciar"></ImageView>
+		</View>
+		
+		<View id="horizontal">
+			<TextField id="user"> </TextField>
+			<TextField id="pass"> </TextField>
+			 <Button id="olvidaste" class="links" onClick="seOlvidada"> ¿Te olvidaste?</Button>
+			<Button id="login" onClick="verificar"> Entrar</Button>
+			<Button class="links" id="sesion" onClick="sesionFace"> Iniciar sesión con Facebook</Button>
+			<ImageView class="face" id="faInicio"></ImageView>
+		</View>
+			
+		<View id="vRegistrar">
+			<TextField id="mail"> Ingresa tu correo electronico </TextField>
+			<Button class="links" id="sesionRe" onClick="sesionFace"> Iniciar sesión con Facebook</Button>
+			<ImageView class="face" id="faRegistro"></ImageView>
+		</View>
+		
+		
+	</Window>
+</Alloy>
